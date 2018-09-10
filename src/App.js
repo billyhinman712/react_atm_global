@@ -11,7 +11,7 @@ class App extends Component {
           <div id="logo"><img src={logo} alt="General Assembly logo" /></div>
           <div id="title">Bank of GA</div>
         </div>
-        <Account name="Checking" />
+        <Account name1="Checking" name2="Savings" />
         <div className="clear"></div>
       </div>
     );
